@@ -1,0 +1,21 @@
+{
+    "name": "vagrant/test3",
+    "description": "テストの作成3",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vagrant\\Test3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "net2katsu",
+            "email": "net2katsu1507@yahoo.co.jp"
+        }
+    ],
+    "minimum-stability": "stable"
+}
