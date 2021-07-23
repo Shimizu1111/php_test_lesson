@@ -1,0 +1,22 @@
+{
+    "name": "vagrant/test4_mock",
+    "description": "モックのテスト",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "phake/phake": "^4.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vagrant\\Test4Mock\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "net2katsu",
+            "email": "net2katsu1507@yahoo.co.jp"
+        }
+    ],
+    "minimum-stability": "stable"
+}

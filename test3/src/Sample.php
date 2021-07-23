@@ -1,11 +1,13 @@
 <?php
 
 namespace Vagrant\Test3;
+
 class Sample
 {
   // $a + $b を返す
   public function Add($a, $b)
   {
+    var_dump("hello2");
     return $a + $b;
   }
 

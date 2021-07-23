@@ -1,0 +1,41 @@
+PHPUnit 9.5.7 by Sebastian Bergmann and contributors.
+
+.string(6) "hello2"
+FF                                                                 3 / 3 (100%)
+
+Time: 00:00.008, Memory: 4.00 MB
+
+There were 2 failures:
+
+1) SampleTest::sub
+致命的なエラーですよ。
+Failed asserting that 13 matches expected 1.
+
+/home/vagrant/php/test_kakikata/test3/test/SampleTest.php:40
+
+2) SampleTest::test_sub2
+致命的なエラーですよ。
+Failed asserting that 13 matches expected 1.
+
+/home/vagrant/php/test_kakikata/test3/test/SampleTest.php:49
+
+FAILURES!
+Tests: 3, Assertions: 3, Failures: 2.
+PHPUnit 9.5.7 by Sebastian Bergmann and contributors.
+
+.string(6) "hello2"
+F                                                                  2 / 2 (100%)
+
+Time: 00:00.007, Memory: 4.00 MB
+
+There was 1 failure:
+
+1) SampleTest::sub
+致命的なエラーですよ。
+Failed asserting that 13 matches expected 1.
+
+/home/vagrant/php/test_kakikata/test3/test/SampleTest.php:40
+
+FAILURES!
+Tests: 2, Assertions: 2, Failures: 1.
+string(6) "hello2"

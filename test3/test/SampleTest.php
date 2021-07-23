@@ -3,6 +3,12 @@
 use PHPUnit\Framework\TestCase;
 use Vagrant\Test3\Sample;
 
+// crontabで定期実行させる為にcronに書くこと
+// コマンドラインで以下のコマンドを実行
+    // crontab -e
+// 以下の内容を記述する、1分おきに定期実行させる
+    // */1 * * * * /usr/bin/sh /home/vagrant/php/test_kakikata/test3/cron_bati_teikijikkou.sh >> /home/vagrant/php/test_kakikata/test3/cron_bati_log.txt
+
 //テストコマンドの使い方
 // グループ化されたテストのみを実行する
     // vendor/bin/phpunit test --group shimizu
@@ -35,7 +41,7 @@ class SampleTest extends TestCase
   }
 
   /**
-   * @author shimizu
+   * 
    */
   public function test_sub2()
   {
