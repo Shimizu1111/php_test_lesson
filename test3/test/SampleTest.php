@@ -13,7 +13,8 @@ use Vagrant\Test3\Sample;
 class SampleTest extends TestCase
 {
   /**
-   * @group shimizu
+   * @group dev
+   * @author shimizu
    * @test
    */
   public function add()
@@ -23,7 +24,8 @@ class SampleTest extends TestCase
   }
 
   /**
-   * @group shimizu
+   * @group dev
+   * @author shimizu
    * @test
    */
   public function sub()
@@ -32,9 +34,21 @@ class SampleTest extends TestCase
     $this->assertEquals(1, $sample->Sub(7, 6), "致命的なエラーですよ。");
   }
 
+  /**
+   * @author shimizu
+   */
   public function test_sub2()
   {
     $sample = new Sample();
     $this->assertEquals(1, $sample->Sub(7, 6), "致命的なエラーですよ。");
+  }
+
+  /**
+   * @afterClass
+   * @author shimizu
+   */
+  public function hello()
+  {
+    var_dump("hello");
   }
 }

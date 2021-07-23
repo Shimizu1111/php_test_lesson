@@ -1,7 +1,6 @@
 <?php
 
 namespace Vagrant\Test3;
-
 class Sample
 {
   // $a + $b を返す
