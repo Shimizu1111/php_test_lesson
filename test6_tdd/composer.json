@@ -13,11 +13,5 @@
             "Vagrant\\Test6Tdd\\App\\Consts\\": "app/Consts"
         }
     },
-    "authors": [
-        {
-            "name": "net2katsu",
-            "email": "net2katsu1507@yahoo.co.jp"
-        }
-    ],
     "minimum-stability": "stable"
 }

@@ -9,12 +9,6 @@
             "Shimizu\\Myapp2\\": "src2/"
         }
     },
-    "authors": [
-        {
-            "name": "net2katsu",
-            "email": "net2katsu1507@yahoo.co.jp"
-        }
-    ],
     "minimum-stability": "stable",
     "require-dev": {
         "phpunit/phpunit": "^9.5"
