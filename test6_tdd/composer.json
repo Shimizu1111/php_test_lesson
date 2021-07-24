@@ -3,7 +3,8 @@
     "description": "TDDの練習",
     "type": "library",
     "require": {
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "symfony/yaml": "^5.3.3"
     },
     "license": "MIT",
     "autoload": {
