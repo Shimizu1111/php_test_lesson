@@ -1,0 +1,22 @@
+{
+    "name": "vagrant/test6_tdd",
+    "description": "TDDの練習",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vagrant\\Test6Tdd\\": "src/",
+            "Vagrant\\Test6Tdd\\App\\Consts\\": "app/Consts"
+        }
+    },
+    "authors": [
+        {
+            "name": "net2katsu",
+            "email": "net2katsu1507@yahoo.co.jp"
+        }
+    ],
+    "minimum-stability": "stable"
+}
